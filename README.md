@@ -67,7 +67,7 @@ ros2 launch crane_x7_Hand_Tracking move_hand.launch.py
 ros2 launch crane_x7_Hand_Tracking move_hand.launch.py use_sim_time:='true'
 ```
 ## 操作
-webカメラの画角内で片手を移動はアームを上から見たときの
+webカメラの画角内で片手を移動し操作。動作についてはアームを上から見た場合、下記に対応。
 * 手の上下の動き：アームの奥行き
 * 手の左右の動き：アームの横移動
 
