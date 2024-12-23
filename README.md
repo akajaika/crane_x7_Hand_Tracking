@@ -71,3 +71,8 @@ ros2 launch crane_x7_Hand_Tracking move_hand.launch.py use_sim_time:='true'
 ## やり残したこと
 * realsenseによる深度取得の組み込み。詳しくは[こちら](https://github.com/Mainichi0501/realsense_depth/tree/main)を確認してください.
 * アームの開閉
+
+## ライセンス
+
+このリポジトリは株式会社アールティ様のライセンスに則って作成しています。詳細は、[RT社公式リポジトリ](https://github.com/rt-net/crane_x7_ros/tree/ros2)より[LICENSEファイル](https://github.com/rt-net/crane_x7_description/blob/master/LICENSE)をご参照ください。
+mediapipe:[Apache License 2.0](https://github.com/google/mediapipe/blob/master/LICENSE)
