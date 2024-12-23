@@ -3,7 +3,7 @@
 
 ## このパッケージを使う前に
 ## 使用環境
-- ROS2
+- ROS2 Humble
 - Ubuntu22.04
 - mediapipe
 - OpenCV
