@@ -81,5 +81,13 @@ webカメラの画角内で片手を移動
 
 ## ライセンス
 
-このリポジトリは株式会社アールティ様のライセンスに則って作成しています。詳細は、[RT社公式リポジトリ](https://github.com/rt-net/crane_x7_ros/tree/ros2)より[LICENSEファイル](https://github.com/rt-net/crane_x7_description/blob/master/LICENSE)をご参照ください。
-mediapipe:[Apache License 2.0](https://github.com/google/mediapipe/blob/master/LICENSE)
+(C) 2024 nonaka kai
+ 
+このパッケージはApache License, Version 2.0に基づき公開されています.  
+ライセンスの全文は[LICENSE](./LICENSE)または[https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)から確認できます。
+
+本パッケージが依存する[crane_x7_description](https://github.com/rt-net/crane_x7_description)には株式会社アールティの非商用ライセンスが適用されています。
+詳細は[crane_x7_description/LICENSE](https://github.com/rt-net/crane_x7_description/blob/master/LICENSE)を参照してください。
+
+[MediaPipe](https://github.com/google/mediapipe)（Apache License 2.0）
+
