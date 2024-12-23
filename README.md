@@ -40,7 +40,7 @@
 ## インストール
 ```
 cd ~/ros2_ws/src
-git clone https://github.com/akajaika/Hand_Tracking
+git clone https://github.com/akajaika/crane_x7_Hand_Tracking
 ```
 ## ビルド 
 ```
@@ -56,6 +56,16 @@ source ~/.bashrc
 ```
 ## 実行  
 シミュレータ（Gazebo）あるいは実機で動かす際には、可視化ツール（RViz）とGazeboの両方を起動する必要があります. 詳しくは[こちら](https://github.com/rt-net/crane_x7_ros/tree/ros2/crane_x7_examples#3-move_group%E3%81%A8controller%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B)を確認してください.
+
+```
+#骨格解析、MediaPipeの実行
+cd ros2_ws/src/crane_x7_Hand_Tracking/
+python3 hand_manipulator.py
+#launchの実行
+ros2 launch crane_x7_Hand_Tracking move_hand.launch.py
+#シミュレータ（Gazebo）の場合
+ros2 launch crane_x7_Hand_Tracking move_hand.launch.py use_sim_time:='true'
+```
 
 # 引継ぎ事項
 ## やり残したこと
