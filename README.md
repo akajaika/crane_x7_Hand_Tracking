@@ -2,7 +2,7 @@
 このパッケージは、ハンドトラッキングでロボットアーム（CRANE-X7）を動かすことができるros2パッケージです。
 
 ## このパッケージを使う前に
-### Ros 2及びCRANE-X7セットアップ
+### ROS 2及びCRANE-X7セットアップ
   この資料はUbuntu 22.04 LTSを元に書いています.   
   * ROS 2インストール  
 　　上田先生の[動画](https://youtu.be/mBhtD08f5KY)及び[インストールスクリプト](https://github.com/ryuichiueda/ros2_setup_scripts)を参照し, インストールを行ってください.   
