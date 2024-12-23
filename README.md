@@ -66,6 +66,13 @@ ros2 launch crane_x7_Hand_Tracking move_hand.launch.py
 #シミュレータ（Gazebo）の場合
 ros2 launch crane_x7_Hand_Tracking move_hand.launch.py use_sim_time:='true'
 ```
+## 操作
+webカメラの画角内で片手を移動
+アームを上から見たとき
+  手の上下の動き：アームの奥行き
+  手の左右の動き：アームの横移動
+
+手が画角外に出た場合、再度映った箇所に移動し再開
 
 # 引継ぎ事項
 ## やり残したこと
