@@ -62,7 +62,6 @@ source ~/.bashrc
 cd ros2_ws/src/crane_x7_Hand_Tracking/
 python3 hand_manipulator.py
 
-
 #launchの実行
 ros2 launch crane_x7_Hand_Tracking move_hand.launch.py
 #シミュレータ（Gazebo）の場合
