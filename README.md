@@ -6,7 +6,7 @@
 - ROS2 Humble
 - Ubuntu22.04
 - mediapipe
-- OpenCV
+- OpenCV 4.5.4
 ### ROS 2及びCRANE-X7セットアップ
   この資料はUbuntu 22.04 LTSを元に書いています.    
   * CRANE-X7及び関連パッケージのインストール  
