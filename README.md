@@ -82,6 +82,20 @@ webカメラの画角内で片手を移動し操作。動作についてはア�
 ## 動いている様子
 https://www.youtube.com/watch?v=lLc0S19kwPk
 
+## mediapipeを用いた手の姿勢検出について
+hand_manipulator.pyはmediapipeを用いたプログラムで基本的に手が裏表、どの角度に傾いていても、手の座標、傾き、回転、握りこみを取得できる。
+* 座標：手首の付け根の座標を取得
+* 傾き：bとcの比を用いて縦横の傾きを取得
+* 回転：逆三角関数を用いてaの角度を取得
+* 握りこみ：cの長さと各指のdの長さを比較し取得、握りこみ以外にも応用可能
+
+![無題31_20241227195357](https://github.com/user-attachments/assets/1e14a112-0b2e-4383-b23d-8a5f57003cb2)
+
+それぞれ長さを取得する際は座標の差から、三平方の定理を用いて絶対値を取得
+
+動いている様子
+https://youtu.be/95PDU86j7ow
+
 # 引継ぎ事項
 ## やり残したこと
 * realsenseによる深度取得の組み込み。詳しくは[こちら](https://github.com/Mainichi0501/realsense_depth/tree/main)を確認してください.
